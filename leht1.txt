@@ -1,0 +1,122 @@
+Q: commands ip a = ip address = ip add = ip addr
+A: true
+
+Q: commands ip a = ip address = ip addresses
+A: false
+
+Q: grep is the only utility for RegExp in Linux
+A: false
+
+Q: Which CLI utility can not be used to view networking configuration in RHEL
+A: ipconfig ...
+
+Q: "rwxrw----" permissions can be achieved with both chmod 760 <some_file> and chmod a+rwx,g-x,o-wrx <some_file>
+A: true
+
+Q: Match the correct answers.
+A: 
+"rw-------"   600
+"a+rwx,go-x"  "rwxrw-rw-"
+644           "rw-r--r--"
+
+Q: The tar command without any passed options (such as z) will archive files, but not compress those.
+A: true
+
+Q: Using the kill <pid> command will always succeed terminating the process by its ID number.
+A: false
+
+Q: What does the command sudo id -g return?
+A: 0
+
+Q: For what purpose should any IT professional learn how to administer Linux? (choose 2)
+A: Cloud environments are often based on Linux distributions.
+A: Other OS users also need to interoperate with Linux (servers).
+A: Linux is portable and can be used for embedded and low physical resource systems.
+A: Most Linux systems are open source and therefore customisable.
+
+Q: 
+[root@host ~]$
+The shell prompt above represents a session with the super user (administrator) account "root" logged in to the computer "host" located in the user's home directory in the file system (/root).
+A: false
+
+Q: If two users belong in the same user group they do not have permissions to each others files by default.
+A: true
+
+Q: When pressing Ctrl+z during a running process on the foreground (i.e. top) is the same as running the process with an ampersand in the end (i.e. top&).
+A: false
+
+Q: 
+[user@host ~]#
+The shell prompt above represents a session with the regular user "user" logged in to the computer "host" located in the user's home directory in the file system (~ a.k.a. /home/user).
+A: false
+
+Q: The Red Hat Cockpit is excellent software for flight radar services.
+A: false
+
+Q: The Red Hat Cockpit software can be thought as a GUI for basic Linux system administration.
+A: true
+
+Q: 
+echo 1 >> file1
+echo 2 > file1
+"file1" does no exist and these 2 commands will be executed, what will happen?
+A: The "file1" will be created with the content "1" and "2" will be the final content of "file1" after the commands.
+
+Q: Block devices in Linux are represented as special files under the /dev directory.
+A: true
+
+Q: Match the correct answers.
+A: 
+Hashed user passwords are stored in       /etc/shadow
+User passwords are typically stored in    /etc/shadow
+
+Q: The find command is recursive by nature.
+A: true
+
+Q: RPM software packages can be only installed from the internet.
+A: false
+
+Q: Various system logs cannot be viewed with.
+A: less /var/log/syslog
+
+Q: How to rename directory "dir1" to "dir2" in the current directory? (choose 4)
+A: rename 1 2 dir1
+A: mv dir1 dir2
+A: mv dir1/ dir2/
+A: mv dir1/ dir2
+
+Q: There are multiple syntactic ways to create for each loops in BASH.
+A: true
+
+Q: process = service = daemon
+A: false
+
+Q: What number will the echo $? command return if the previous command's exit code was 0?
+A: 0
+
+Q: Which of these does not configure the httpd service to start automatically when the OS is
+started? (choose 3)
+A: systemctl enable http
+A: service enable httpd
+A: systemd enable httpd
+
+Q: ssh connection to user@host can be done with ... (choose 3)
+A: [user@host ~]$ ssh -i user host
+A: ssh -l user host
+A: ssh host -l $USER
+
+Q: Please write a crontab entry in format * * * * * which will execute at every first day of the month at one minute past midnight no matter the day of the week.
+A: 1 0 1 * *
+
+Q: The command "cat" will display URLs of random funny pictures of kittens on the internet.
+A: false
+
+Q: BASH script = sh script
+A: false
+
+Q: It is not common for a user account to belong to a user group named after itself
+A: false
+
+Q: The command "passwd user --all" allows the root user to view all stored user passwords.
+A: false
+
